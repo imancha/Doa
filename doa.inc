@@ -188,7 +188,7 @@
 									<h2>Doa Sehari-Hari<br><span style="font-size:12px; font-weight:normal; color:#7F7F7F;">( Versi Alpha )</span></h2>
 									<p style="padding:40px"><img src="src/camera-loader.gif" width="60px"></p>
 									<p><b>Dibuat Oleh:</b></p>										
-									Salman<br>
+									Salman Wahyudin<br>
 									Wihardodo<br>
 									Mohammad Febri Ramadlan<br>
 									Mohammad Abdul Iman Syah		
