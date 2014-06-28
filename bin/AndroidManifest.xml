@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imancha.doa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:permission="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.imancha.doa.Opening"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.imancha.doa.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.imancha.doa.Doa" >
+        </activity>
+        <activity android:name="com.imancha.doa.ViewDoa" >
+        </activity>
+        <activity android:name="com.imancha.doa.Bookmark" >
+        </activity>
+        <activity android:name="com.imancha.doa.About" >
+        </activity>
+        <activity android:name="com.imancha.doa.Help" >
+        </activity>
+    </application>
+
+</manifest>
